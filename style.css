@@ -1,0 +1,51 @@
+body {
+    font-family: Font;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%);
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: Font;
+    src: url(Modeseven-L3n5.ttf);
+}
+
+.button 
+{
+    background-color: rgba(2, 0, 36, 0.25);
+    border: none;
+    color: white;
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+.button:hover 
+{
+    background-color: rgba(2, 0, 36, 0.50);
+    color: white;
+}
+
+.header 
+{
+    padding: 5px;
+    height: 10%;
+    text-align: left;
+    background: rgba(136, 136, 136, 0.5);
+    font-size: 15px;
+}
